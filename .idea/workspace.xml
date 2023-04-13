@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdc8cc7d-bc1c-46b3-b143-94c8af54a229" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JAVA_/Java OOP/ScreenMatch/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_/Java OOP/ScreenMatch/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_/Java OOP/ScreenMatch/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_/Java OOP/ScreenMatch/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_/Java OOP/ScreenMatch/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA_/Java OOP/ScreenMatch/ScreenMatch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JAVA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA_/Java intro/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA_/Java intro/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA_/Java intro/src/app_contabancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA_/Java intro/src/app_contabancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/Java OOP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/ScreenMatch/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/ScreenMatch/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/ScreenMatch/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/ScreenMatch/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/ScreenMatch/ScreenMatch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/ScreenMatch/src/Filme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/ScreenMatch/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/Java intro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/src/Condicional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/src/Loop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/src/app_contabancaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/src/do_while.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/src/input_java.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java intro/src/switch_case.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2OIjCVoRoUYDIYfJvSzREvzjplb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arthu/OneDrive/Documentos/Projetos/JAVA&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdc8cc7d-bc1c-46b3-b143-94c8af54a229" name="Changes" comment="" />
+      <created>1681254863001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681254863001</updated>
+    </task>
+    <servers />
+  </component>
+</project>
