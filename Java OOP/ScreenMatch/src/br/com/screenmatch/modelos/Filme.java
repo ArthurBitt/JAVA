@@ -1,6 +1,8 @@
 package br.com.screenmatch.modelos;
 
-public class Filme extends Titulo { //TTodo filme é um título
+import br.com.screenmatch.calculos.Classificavel;
+
+public class Filme extends Titulo implements Classificavel { //TTodo filme é um título
     // classes filhas só contém o que a superclasse não contém, isto é, suas excessões apenas.
 
     //Atributos classe filme
@@ -15,6 +17,11 @@ public class Filme extends Titulo { //TTodo filme é um título
         return diretor;
 
 
+    }
+
+    @Override
+    public int getclassificacao() {
+        return (int) (pegaMedia()/2);
     }
 }
 

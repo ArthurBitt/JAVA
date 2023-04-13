@@ -1,3 +1,7 @@
+import br.com.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.screenmatch.calculos.Classificavel;
+import br.com.screenmatch.calculos.FiltroRecomendacao;
+import br.com.screenmatch.modelos.Episodio;
 import br.com.screenmatch.modelos.Filme;
 import br.com.screenmatch.modelos.Serie;
 
@@ -21,6 +25,10 @@ public class Main {
 
        theWalkinDead.exibeFichaTecnica();
 
+        Episodio episodioteste = new Episodio();
+        episodioteste.setNome("x");
+        episodioteste.setTotalVisualizacoes(90);
+
 
         /*System.out.println(String.format("Nome: %s",theWalkinDead.getNome()));
         System.out.println(String.format("Ano: %d",theWalkinDead.getAnoDeLancamento()));
@@ -35,10 +43,14 @@ public class Main {
         System.out.println(filme1.getDuracaoEmMinutos());
         //filme1.teste = 1; //objeto.atributo recebe valor
 
+        Filme filme2 = new Filme();
+        filme2.setNome("Drácula");
+        filme2.setDuracaoEmMinutos(200);
 
         //filme1.exibeFichaTecnica();// chamada de método definido como public em outro packge
         filme1.avalia(8);// objeto acessa método e passa parâmetro int
         filme1.avalia(5);
+        filme1.avalia(10);
         filme1.avalia(10);
 
         filme1.exibeFichaTecnica();
@@ -52,6 +64,20 @@ public class Main {
         System.out.println(String.format("Total de Avaliações: %d",filme1.getTotalDeAvaliacoes()));
         //executa o método pegamedia
         System.out.println(String.format("Média avaliação: %.2f", filme1.pegaMedia()));*/
+
+        CalculadoraDeTempo calc = new CalculadoraDeTempo();
+        calc.inclui(filme1);
+        calc.inclui(filme2);
+        calc.inclui(theWalkinDead);
+
+        System.out.println("tempototal " + calc.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(filme1);
+        filtro.filtra(episodioteste);
+
+
+
     }
 }
 
