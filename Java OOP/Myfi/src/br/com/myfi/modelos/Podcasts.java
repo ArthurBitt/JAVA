@@ -1,3 +1,5 @@
+package br.com.myfi.modelos;
+
 public class Podcasts extends Faixa{
 
     //atributos subclasse

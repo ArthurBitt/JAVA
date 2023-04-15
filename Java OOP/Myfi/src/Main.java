@@ -1,3 +1,5 @@
+import br.com.myfi.modelos.Musicas;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -17,10 +19,10 @@ public class Main {
         musica1.setCurtida(true);
         musica1.setCurtida(false);
         musica1.exibeFicha();
-        musica1.reproduzir();
 
 
-//        Podcasts podcast1 = new Podcasts();
+
+//        br.com.myfi.Podcasts podcast1 = new br.com.myfi.Podcasts();
 //        podcast1.setNome("Guia de Carreira");
 //        podcast1.setTema("Tech");
 //        podcast1.setTituloEpisodio("Java");

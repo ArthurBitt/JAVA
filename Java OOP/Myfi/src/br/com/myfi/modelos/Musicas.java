@@ -1,3 +1,5 @@
+package br.com.myfi.modelos;
+
 public class Musicas extends Faixa{
 
     //atributos subclasse

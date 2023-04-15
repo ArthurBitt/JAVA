@@ -1,3 +1,5 @@
+package br.com.myfi.modelos;
+
 public class Faixa {
 
                                                                         //atributos superclasse
@@ -63,13 +65,13 @@ public class Faixa {
         this.curtida = curtida;
         if (curtida == true){
 
-            likes += 1;
+            likes ++;
             return likes;
 
 
         }else{
 
-            return deslikes+=1;
+            return deslikes++;
         }
 
     }
