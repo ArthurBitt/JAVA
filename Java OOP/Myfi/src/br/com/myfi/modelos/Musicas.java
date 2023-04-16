@@ -6,6 +6,16 @@ public class Musicas extends Faixa{
     private String artista;
     private String album;
 
+    //constructor
+    public Musicas(String nome, double duracao, String artista, String album, int ano,String formato, boolean curtir){
+        this.setNome(nome);
+        this.setDuracaoMinutos(duracao);
+        this.setArtista(artista);
+        this.setAlbum(album);
+        this.setAnoLancamento(ano);
+        this.setFormato(formato);
+        this.setCurtida(curtir);
+    }
 
     //Métodos
 

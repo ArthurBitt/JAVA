@@ -6,22 +6,14 @@ public class Main {
     public static void main(String[] args) {
 
         //objetos
-        Musicas musica1 = new Musicas();
-        musica1.setNome("Way down we go");
-        musica1.setDuracaoMinutos(3.33);
-        musica1.setAnoLancamento(2016);
-        musica1.setAlbum("A/B");
-        musica1.setArtista("Kaleo");
-        musica1.setFormato(".flac");
 
-        musica1.setCurtida(true);
-        musica1.setCurtida(true);
-        musica1.setCurtida(true);
-        musica1.setCurtida(false);
+        //exemplo objeto instanciado a partir de um construtor montado na classe Musicas
+        Musicas musica1 = new Musicas("Way down we go",3.33,"Kaleo","A/B",2016,".flac",true);
+
         musica1.exibeFicha();
 
 
-
+//        objeto instanciado a partir de métodos
 //        br.com.myfi.Podcasts podcast1 = new br.com.myfi.Podcasts();
 //        podcast1.setNome("Guia de Carreira");
 //        podcast1.setTema("Tech");
