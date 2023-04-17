@@ -1,20 +1,16 @@
-package br.com.myfi.modelos;
+package br.com.Myfi.Modelos;
 
-public class Musicas extends Faixa{
+public class Musicas
+        extends Faixa {
 
     //atributos subclasse
     private String artista;
     private String album;
 
-    //constructor
-    public Musicas(String nome, double duracao, String artista, String album, int ano,String formato, boolean curtir){
-        this.setNome(nome);
-        this.setDuracaoMinutos(duracao);
-        this.setArtista(artista);
-        this.setAlbum(album);
-        this.setAnoLancamento(ano);
-        this.setFormato(formato);
-        this.setCurtida(curtir);
+    //constructor subclasse
+    public Musicas(String nome, double duracaoMinutos){
+
+        super(nome, duracaoMinutos);
     }
 
     //Métodos
@@ -30,6 +26,12 @@ public class Musicas extends Faixa{
         System.out.println("Álbum: " + album);
         System.out.println("Likes: " + getLikes());
         System.out.println("Deslikes: " + getDeslikes());
+
+    }
+
+    @Override
+    public String toString() {
+         return "Nome: " + this.getNome();
 
     }
 

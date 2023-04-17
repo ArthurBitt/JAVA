@@ -1,4 +1,4 @@
-package br.com.myfi.modelos;
+package br.com.Myfi.Modelos;
 
 public class Faixa {
 
@@ -13,7 +13,13 @@ public class Faixa {
     private int likes;
     private int deslikes;
 
-                                                                            //Métodos
+    //Construtor super classe
+    public Faixa(String nome, double duracaoMinutos){
+        this.nome = nome;
+        this.duracaoMinutos = duracaoMinutos;
+    }
+
+    //Métodos
 
     //exibir ficha
     public void exibeFicha(){

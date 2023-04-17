@@ -1,6 +1,7 @@
-package br.com.myfi.modelos;
+package br.com.Myfi.Modelos;
 
-public class Podcasts extends Faixa{
+public class Podcasts
+        extends Faixa {
 
     //atributos subclasse
         private String participantes;
@@ -8,8 +9,13 @@ public class Podcasts extends Faixa{
         private String sinopse;
         private String tituloEpisodio;
 
+    //Construtor subclasse
+    public Podcasts(String nome, Double duracaoEmMinutos){
+        super(nome, duracaoEmMinutos);
+    }
 
-        //Métodos
+
+    //Métodos
 
     //exibir ficha sobreescrito
     @Override

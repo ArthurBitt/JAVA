@@ -1,4 +1,6 @@
-import br.com.myfi.modelos.Musicas;
+package br.com.Myfi.Principal;
+
+import br.com.Myfi.Modelos.Musicas;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -7,14 +9,28 @@ public class Main {
 
         //objetos
 
-        //exemplo objeto instanciado a partir de um construtor montado na classe Musicas
-        Musicas musica1 = new Musicas("Way down we go",3.33,"Kaleo","A/B",2016,".flac",true);
+        //exemplo objeto instanciado a partir de um construtor
+        Musicas musica1 = new Musicas("Way down we go",3.33);
+        Musicas musica2 = new Musicas("Hot Blood",3.39);
+        Musicas musica3 = new Musicas("Broken Bones",4.06);
 
+        musica1.setFormato(".flac");
+        musica1.setAlbum("A/B");
+        musica1.setArtista("Kaleo");
         musica1.exibeFicha();
+
+        //Utilizando um Arraylist para adicionar as músicas e println com toString override na classe Musicas para
+        // exibir o nome das música na array
+
+//        var listaDeMusicas = new ArrayList<>();
+//        listaDeMusicas.add(musica1);
+//        listaDeMusicas.add(musica2);
+//        listaDeMusicas.add(musica3);
+//        System.out.println(listaDeMusicas);
 
 
 //        objeto instanciado a partir de métodos
-//        br.com.myfi.Podcasts podcast1 = new br.com.myfi.Podcasts();
+//        br.com.myfi.Modelos.Podcasts podcast1 = new br.com.myfi.Modelos.Podcasts();
 //        podcast1.setNome("Guia de Carreira");
 //        podcast1.setTema("Tech");
 //        podcast1.setTituloEpisodio("Java");
