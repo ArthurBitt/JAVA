@@ -26,7 +26,7 @@ public class ExercicioPraticoConceitos {
                     System.out.println("""
                                                 
                                                 
-                            *****************DADOS CLIENTE ****************
+                            ***************** DADOS CLIENTE ****************
                             Cliente                     Arthur Bittencourt
                             Tipo da Conta               Conta Corrente
                             Saldo Disponível            R$     2500,00    
