@@ -1,6 +1,17 @@
 # Meus Estudos com Java
 
+
+
 ### 1º Parte -  Introdução ao Java
+
+``` 
+Instalar JDK
+Instalar IDEA intellij
+```
+
+* Preparar o ambiente de desenvolvimento - links : <a href = "https://www.oracle.com/br/java/technologies/downloads/#jdk17-windows" >JDK</a> <a href="https://www.jetbrains.com/idea/download/#section=windows">Intellij</a>
+
+ ><a href="https://www.alura.com.br/artigos/java"> Artigo Alura para entender um pouco alguns conceitos e a linguagem </a>
 
 * variáveis (tipos primitivos x referência)
 
