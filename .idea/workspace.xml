@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdc8cc7d-bc1c-46b3-b143-94c8af54a229" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java OOP/Exercicios/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Java OOP/Exercicios/Exercicio POO Java/ExercicioPOOJava.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Java OOP/Exercicios/Exercicio2 POO Java/Exercicio2POOJava.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Java OOP/ScreenMatch/.gitignore" afterDir="false" />
@@ -11,7 +10,8 @@
       <change afterPath="$PROJECT_DIR$/Java OOP/ScreenMatch/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Java OOP/ScreenMatch/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Java OOP/ScreenMatch/ScreenMatch.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java OOP/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java OOP/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/Exercicios/Exercicio POO Java" beforeDir="false" afterPath="$PROJECT_DIR$/Java OOP/Exercicios/Exercicio POO Java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/Exercicios/Exercicio2 POO Java" beforeDir="false" afterPath="$PROJECT_DIR$/Java OOP/Exercicios/Exercicio2 POO Java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java intro/src/ExercicioPraticoConceitos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java intro/src/ExercicioPraticoConceitos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "new",
-    "last_opened_file_path": "C:/Users/arthu/OneDrive/Documentos/Projetos/JAVA"
+    "last_opened_file_path": "C:/Users/arthu/OneDrive/Documentos/Projetos/JAVA/Java OOP"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
