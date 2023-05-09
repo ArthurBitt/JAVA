@@ -1,3 +1,5 @@
+package br.com.Porta;
+
 public class Porta {
     boolean aberta = true;
     String cor;
