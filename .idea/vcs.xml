@@ -2,11 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Java OOP/Nova pasta/Ex1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Java OOP/Nova pasta/Ex2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Java OOP/Nova pasta/Ex3" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Java OOP/ScreenMatch" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Java OOP/untitled" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Java intro" vcs="Git" />
   </component>
 </project>
