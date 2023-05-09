@@ -2,10 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Nova pasta/Ex1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Nova pasta/Ex2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Nova pasta/Ex3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Nova pasta/x" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ScreenMatch" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/untitled" vcs="Git" />
   </component>
 </project>
