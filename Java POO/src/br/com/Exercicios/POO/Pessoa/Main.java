@@ -1,4 +1,4 @@
-package br.com.Pessoa;
+package br.com.Exercicios.POO.Pessoa;
 
 public class Main {
     public static void main(String[] args) {

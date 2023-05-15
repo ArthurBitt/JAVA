@@ -1,4 +1,4 @@
-package br.com.Porta;
+package br.com.Exercicios.POO.Porta;
 
 public class Main {
     public static void main(String[] args) {

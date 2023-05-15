@@ -1,4 +1,4 @@
-package br.com.Fintech;
+package br.com.Fintech.Modulos;
 
 public class Menu {
 
@@ -13,6 +13,9 @@ public class Menu {
                                 2- Depositar
                                 3- Sacar
                                 4- Sair
+                                5- Home
+                                6- Seus Rendimentos
+                                
                                 *************************
                                                         
                                                         

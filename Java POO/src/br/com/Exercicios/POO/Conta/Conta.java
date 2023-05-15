@@ -1,43 +1,66 @@
-package br.com.Fintech;
-
+package br.com.Exercicios.POO.Conta;
+import java.util.Random;
 public class Conta {
 
-    //Variáveis Atributos
-    private String nomeTitular;
-    private int numConta;
-    private int numAgencia;
-    private double saldo = 0;
+        //Variáveis Atributos
+    String nomeTitular;
+    int numConta;
+    int numAgencia;
+    double saldo = 0;
     Data dataAbertura;
     private static int  quantContas;
+    private int identificador;
 
-    //construtor
     public Conta(Data dataAbertura, String nomeTitular, int numeroConta, int numeroAgencia){
+        Random rand = new Random();
+
         this.dataAbertura = dataAbertura;
         this.nomeTitular = nomeTitular;
         this.numConta = numeroAgencia;
         this.numAgencia = numeroAgencia;
         Conta.quantContas += 1;
+        this.identificador = rand.nextInt();
+
+    }
+//getters e setters da classe
+public int getIdentificador(){
+        return this.identificador;
+    }
+public double getSaldo(){
+        return this.saldo;
     }
 
-    //getters e setters da classe
-    public static int getQuantContas() {
+public void setNomeTitular(String nomeTitular){
+    this.nomeTitular = nomeTitular;
 
+}
 
-        return quantContas;
-    }
+public static int getQuantContas() {
+    return Conta.quantContas;
+}
 
-    public double getSaldo() {
-        return saldo;
-    }
-
-    public double getRendimento(){
+public double getRendimento(){
         double rendimento = this.saldo * 0.1;
         this.saldo += rendimento;
         return this.saldo;
     }
 
+
+
+
     //Métodos da Classe
-    public String recuperaDadosParaImpressao() {
+    public double saca(double valor){
+        this.saldo -= valor;
+        return this.saldo;
+    }
+
+    public double deposita(double valor){
+        this.saldo += valor;
+        return this.saldo;
+    }
+
+
+    String recuperaDadosParaImpressao() {
         String dadosImpressos = String.format("""
                 ********************************
                     Titular:          %s
@@ -51,15 +74,4 @@ public class Conta {
 
     }
 
-    public double Saca(double valor){
-        if (valor <= this.saldo) {
-            return this.saldo -= valor;
-        }else{
-            System.out.println("Valor não disponível para saque");
-        }return this.saldo;
-    }
-
-    public double deposita(double valor){
-        return this.saldo += valor;
-    }
 }

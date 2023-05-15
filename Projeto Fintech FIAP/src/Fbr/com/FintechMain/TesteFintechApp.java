@@ -1,8 +1,9 @@
+package Fbr.com.FintechMain;
 import java.util.Scanner;
-import br.com.Fintech.Conta;
-import br.com.Fintech.Data;
-import br.com.Fintech.Token;
-import br.com.Fintech.Menu;
+import br.com.Fintech.Modulos.Conta;
+import br.com.Fintech.Modulos.Data;
+import br.com.Fintech.Modulos.Token;
+import br.com.Fintech.Modulos.Menu;
 
 public class TesteFintechApp {
     public static void main(String[] args) {
@@ -12,19 +13,22 @@ public class TesteFintechApp {
         Menu menu = new Menu();
         Data data = new Data(14, 05, 2023);
         Conta conta1 = new Conta(data, "Arthur", 1234, 6);
-        Token password = new Token("abc");
+        Token password = new Token();
+        Scanner sc = new Scanner(System.in);
 
 //variaveis da main
         Conta conta = conta1;
         int i = 0;
         String inicializar;
-        Scanner sc = new Scanner(System.in);
 
-
+        //Main Program
         System.out.println("Deseja iniciar a aplicação S/N: ");
         inicializar = sc.nextLine().toUpperCase();
         while (inicializar.equals("S") && i != 4) {
+            //Token random
+            System.out.println(password.Token());
             password.validaToken();
+            System.out.println(conta.recuperaDadosParaImpressao());
             while (i != 4 || password.validaToken() != false) {
                 conta1.recuperaDadosParaImpressao();
                 menu.chamaMenu();
@@ -33,9 +37,7 @@ public class TesteFintechApp {
                     case 1:
                         System.out.println("...Consultando Saldo");
                         System.out.println(String.format("Saldo: " + conta.getSaldo()));
-                        ;
                         break;
-
                     case 2:
                         System.out.println("valor a depositar: ");
                         conta.deposita(sc.nextDouble());
@@ -44,7 +46,6 @@ public class TesteFintechApp {
                         System.out.println("Valor do saque: ");
                         conta.Saca(sc.nextDouble());
                         break;
-
                     case 4:
                         System.out.println("...");
                         if (i == 4) {
@@ -57,6 +58,12 @@ public class TesteFintechApp {
                         } else {
                             continue;
                         }
+                    case 5:
+                        System.out.println(conta.recuperaDadosParaImpressao());
+                        break;
+                    case 6:
+                        System.out.println("Rendimentos: " + conta.getRendimento());
+                        break;
                     default:
                         System.out.println("...opção inválida");
                         break;
@@ -64,11 +71,11 @@ public class TesteFintechApp {
                 }//fim switch
                 if (!inicializar.equals("S")) {
                     break;
-                }// fim main while
-            }//fim if else entrada
+                }// fim verificação inicializar
+            }//fim segundo while
         }//fim while entrada
     }//fim main
-}
+}//fim classe
 
 
 
