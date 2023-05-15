@@ -1,8 +1,6 @@
 package br.com.Conta;
 
 public class Data {
-
-
     int dia;
     int mes;
     int ano;

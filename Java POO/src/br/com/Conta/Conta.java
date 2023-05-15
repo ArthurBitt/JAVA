@@ -10,6 +10,10 @@ public class Conta {
     Data dataAbertura;
 
 
+    public Conta(Data dataAbertura){
+        this.dataAbertura = dataAbertura;
+    }
+
     //Métodos da Classe
     // saca;deposita;calculaRendimento(saldox0.1 - regra )
 
@@ -42,9 +46,11 @@ public class Conta {
                     Conta:            %d
                     Agência:          %d
                     Saldo:            %.2f
+                    Data:             %d
                 ********************************                       
-                """, nomeTitular, numConta, numAgencia, saldo);
+                """, nomeTitular, numConta, numAgencia, saldo,dataAbertura);
         return dadosImpressos;
+
 
 
     }
