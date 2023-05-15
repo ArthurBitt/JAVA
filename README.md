@@ -29,7 +29,11 @@ Instalar IDEA intellij
 
 * ###### Java Introdução a Programação Orientada a Objeto 
 
-><a href ="https://github.com/ArthurBitt/JAVA/tree/main/Java%20OOP/ScreenMatch" >Exercício Prático utilizando o conteúdo de OOP para montar uma aplicação de streaming de Filmes</a>
+* Pilares da POO (Abstração, encapsulamento, polimorfismo e herança)
+
+> <a href="https://www.alura.com.br/apostila-java-orientacao-objetos"> Apostila de Java OOP Alura para consultas </a>
+
+> <a href="https://github.com/ArthurBitt/JAVA/tree/main/Java%20POO"> Exercícios práticos </a>
 
 * Listas, Consumo de API's e Introdução as exceções
 
@@ -37,7 +41,7 @@ Instalar IDEA intellij
 
 * Exceções
 
-> <a href="https://www.alura.com.br/apostila-java-orientacao-objetos"> Apostila de Java OOP Alura para consultas </a>
+
 
 ### 2º integrando aplicações com banco de dados
 
