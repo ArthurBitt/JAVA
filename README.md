@@ -31,10 +31,10 @@ Instalar IDEA intellij
 
 * Pilares da POO (Abstração, encapsulamento, polimorfismo e herança)
 
-* > <a href="https://www.alura.com.br/apostila-java-orientacao-objetos"> Apostila de Java OOP Alura para consultas </a>
+> <a href="https://www.alura.com.br/apostila-java-orientacao-objetos"> Apostila de Java OOP Alura para consultas </a>
 
-> <a href=""> Exercícios práticos </a>
-> 
+> <a href="https://github.com/ArthurBitt/JAVA/tree/main/Java%20POO"> Exercícios práticos </a>
+
 * Listas, Consumo de API's e Introdução as exceções
 
 * Collections 
