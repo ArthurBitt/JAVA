@@ -1,20 +1,41 @@
 public class Conta {
-    private String titular;
-    private double saldo;
-    private int numConta;
-    private static int quantContas;
-    private int numAgencia;
-    Conta(String titular){
+
+    //Variáveis Atributos
+    String nomeTitular;
+    int numConta;
+    int numAgencia;
+    double saldo = 0;
+    Data dataAbertura;
+    private static int  quantContas;
+
+    public Conta(Data dataAbertura, String nomeTitular, int numeroConta, int numeroAgencia){
+        this.dataAbertura = dataAbertura;
+        this.nomeTitular = nomeTitular;
+        this.numConta = numeroAgencia;
+        this.numAgencia = numeroAgencia;
+        Conta.quantContas += 1;
+    }
+    //getters e setters da classe
+    public static int getQuantContas() {
+        return quantContas;
     }
 
-    Conta(String titular, int numeroConta, int numAgencia){
-        this(titular);
-        this.numConta = numeroConta;
-        this.numAgencia = numAgencia;
+    //Métodos da Classe
+    double saca(double valor){
+        this.saldo -= valor;
+        return this.saldo;
     }
 
-    //saca deposita exibe dados
+    double deposita(double valor){
+        this.saldo += valor;
+        return this.saldo;
+    }
 
+    double calculaRendimento(){
+        double rendimento = this.saldo * 0.1;
+        this.saldo += rendimento;
+        return this.saldo;
+    }
 
     void consultaSaldo(){
         System.out.println(this.saldo);
@@ -27,13 +48,11 @@ public class Conta {
                     Conta:            %d
                     Agência:          %d
                     Saldo:            %.2f
+                    Data Abertura:    %s
                 ********************************                       
-                """, titular, numConta, numAgencia, saldo);
+                """, nomeTitular, numConta, numAgencia, saldo, Data.recuperaData());
         return dadosImpressos;
 
-
-
-
-
-
     }
+
+}

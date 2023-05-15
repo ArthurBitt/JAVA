@@ -1,13 +1,19 @@
 package br.com.Conta;
 
 public class Data {
-    int dia;
-    int mes;
-    int ano;
+    private static int dia;
+    private static int mes;
+    private static int ano;
 
-    String recuperaData(){
+    Data(int dia, int mes, int ano){
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
+    }
+
+   public static String recuperaData(){
         String textoData = String.format("""
-                    Data de Abertura: %d %d %d
+               %d /%d/ %d
                 """, dia, mes, ano);
         return textoData;
     }
