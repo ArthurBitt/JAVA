@@ -6,18 +6,19 @@ public class FilmesEncapsulamentoAplicacao {
     private String nome;
     private int anoLancamento;
     private boolean incluidNoPlano;
-    private double somaAvaliacoes;
-    private int totalDeAvaliacoes;
+    private static double somaAvaliacoes;
+    private static int totalDeAvaliacoes;
     private int duracaoEmMinutos;
     private static int quantFilmesAssistidos; // uso do static
 
-    FilmesEncapsulamentoAplicacao(String nome, int ano, int duracao){ //utilização de um construtor
+    FilmesEncapsulamentoAplicacao(String nome, int ano, int duracao, double nota){ //utilização de um construtor
         this.nome = nome;
         this.anoLancamento = ano;
         this.duracaoEmMinutos = duracao;
-        quantFilmesAssistidos += 1;
+        FilmesEncapsulamentoAplicacao.somaAvaliacoes += nota;
+        FilmesEncapsulamentoAplicacao.quantFilmesAssistidos += 1;
+        FilmesEncapsulamentoAplicacao.totalDeAvaliacoes ++;
     }
-
 
     //getters e setters
     public String getNome() {
@@ -58,13 +59,11 @@ public class FilmesEncapsulamentoAplicacao {
         System.out.println("Nome: "+ this.nome);
         System.out.println("Ano: "+this.anoLancamento);
         System.out.println("Duração: "+ this.anoLancamento + "min");
+        System.out.println(somaAvaliacoes);
         System.out.println("Nota: "+ this.mediaAvaliacoes());
     }
 
-    void avalia(double nota){
-        this.somaAvaliacoes += nota; //será usado para média
-        totalDeAvaliacoes++; // quant avaliaçõe - dividirá a soma
-    }
+
 
     double mediaAvaliacoes(){
         double media = somaAvaliacoes/totalDeAvaliacoes;

@@ -16,15 +16,16 @@ public class MainTestes {
         System.out.println(f1.mediaAvaliacoes());
 
         //classe filme com encapsulamento
-        FilmesEncapsulamentoAplicacao f2 = new FilmesEncapsulamentoAplicacao("The Grudge", 2001,115);
-        FilmesEncapsulamentoAplicacao f3 = new FilmesEncapsulamentoAplicacao("The Grudge", 2001,115);
-        FilmesEncapsulamentoAplicacao f4 = new FilmesEncapsulamentoAplicacao("The Grudge", 2001,115);
+        FilmesEncapsulamentoAplicacao f2 = new FilmesEncapsulamentoAplicacao("The Grudge", 2001,115, 8);
+        FilmesEncapsulamentoAplicacao f3 = new FilmesEncapsulamentoAplicacao("The Grudge", 2001,115, 8);
+        FilmesEncapsulamentoAplicacao f4 = new FilmesEncapsulamentoAplicacao("The Grudge", 2001,115, 8);
 
         f2.setNome("Zumbiland");// usando set
 
         System.out.println(f2.getNome()); //printando um get
 
         int total = FilmesEncapsulamentoAplicacao.getQuantFilmesAssistidos();//definido a variavel para usar static
+        System.out.println(f2.mediaAvaliacoes());
 
         System.out.println(total);//printando um get
 

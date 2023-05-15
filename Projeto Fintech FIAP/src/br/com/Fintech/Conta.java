@@ -1,13 +1,16 @@
+package br.com.Fintech;
+
 public class Conta {
 
     //Variáveis Atributos
-    String nomeTitular;
-    int numConta;
-    int numAgencia;
-    double saldo = 0;
+    private String nomeTitular;
+    private int numConta;
+    private int numAgencia;
+    private double saldo = 0;
     Data dataAbertura;
     private static int  quantContas;
 
+    //construtor
     public Conta(Data dataAbertura, String nomeTitular, int numeroConta, int numeroAgencia){
         this.dataAbertura = dataAbertura;
         this.nomeTitular = nomeTitular;
@@ -15,33 +18,26 @@ public class Conta {
         this.numAgencia = numeroAgencia;
         Conta.quantContas += 1;
     }
+
     //getters e setters da classe
     public static int getQuantContas() {
+
+
         return quantContas;
     }
 
-    //Métodos da Classe
-    double saca(double valor){
-        this.saldo -= valor;
-        return this.saldo;
+    public double getSaldo() {
+        return saldo;
     }
 
-    double deposita(double valor){
-        this.saldo += valor;
-        return this.saldo;
-    }
-
-    double calculaRendimento(){
+    public double getRendimento(){
         double rendimento = this.saldo * 0.1;
         this.saldo += rendimento;
         return this.saldo;
     }
 
-    void consultaSaldo(){
-        System.out.println(this.saldo);
-    }
-
-    String recuperaDadosParaImpressao() {
+    //Métodos da Classe
+    public String recuperaDadosParaImpressao() {
         String dadosImpressos = String.format("""
                 ********************************
                     Titular:          %s
@@ -55,4 +51,15 @@ public class Conta {
 
     }
 
+    public double Saca(double valor){
+        if (valor <= this.saldo) {
+            return this.saldo -= valor;
+        }else{
+            System.out.println("Valor não disponível para saque");
+        }return this.saldo;
+    }
+
+    public double deposita(double valor){
+        return this.saldo += valor;
+    }
 }

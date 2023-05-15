@@ -19,8 +19,14 @@ public class Conta {
     }
 //getters e setters da classe
 public static int getQuantContas() {
-    return quantContas;
+    return Conta.quantContas;
 }
+
+public double getRendimento(){
+        double rendimento = this.saldo * 0.1;
+        this.saldo += rendimento;
+        return this.saldo;
+    }
 
     //Métodos da Classe
     double saca(double valor){
@@ -33,11 +39,6 @@ public static int getQuantContas() {
         return this.saldo;
     }
 
-    double calculaRendimento(){
-        double rendimento = this.saldo * 0.1;
-        this.saldo += rendimento;
-        return this.saldo;
-    }
 
     void consultaSaldo(){
         System.out.println(this.saldo);
