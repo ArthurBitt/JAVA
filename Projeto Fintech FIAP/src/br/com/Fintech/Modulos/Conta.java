@@ -14,10 +14,9 @@ public class Conta {
 
     //construtor
     public Conta(Data dataAbertura, Clientes nomeTitular, int numeroConta, int numeroAgencia){
-
         this.dataAbertura = dataAbertura;
         this.nomeTitular = nomeTitular;
-        this.numConta = numeroAgencia;
+        this.numConta = numeroConta;
         this.numAgencia = numeroAgencia;
         Conta.quantContas += 1;
 
@@ -66,7 +65,7 @@ public class Conta {
                     Saldo:            %.2f
                     Data Abertura:    %s
                 **************************************                       
-                """, getNomeTitular().toString(), getNumConta(), getNumAgencia(), getSaldo(), Data.recuperaData());
+                """, getNomeTitular(), getNumConta(), getNumAgencia(), getSaldo(), Data.recuperaData().toString());
         return dadosImpressos;
 
     }

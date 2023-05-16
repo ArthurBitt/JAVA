@@ -5,6 +5,23 @@ public class Clientes {
     private Endereco endereco;
     private int identificador;
 
+
+    //construtores
+    public Clientes(String nomeTitular){
+        this.nome = nomeTitular;
+        Random rand = new Random();
+        this.identificador = rand.nextInt();
+
+    }
+
+    public Clientes(Clientes nome, Endereco endereco){
+        Random rand = new Random();
+        this.identificador = rand.nextInt();
+        this.endereco = endereco;
+        this.nome = this.nome;
+    }
+
+//getters e setters
     public String getNome() {
         return nome;
     }
@@ -17,19 +34,17 @@ public class Clientes {
         return identificador;
     }
 
-    public Clientes(String nomeTitular){
-        this.nome = nomeTitular;
-        Random rand = new Random();
-        this.identificador = rand.nextInt();
+    //métodos da classe
 
+
+
+
+    @Override
+    public String toString() {
+        return this.nome + "\nidentificador: " + getIdentificador();
     }
 
-    public Clientes(Endereco endereco, String nome){
-        Random rand = new Random();
-        this.identificador = rand.nextInt();
-        this.endereco = endereco;
-        this.nome = this.nome;
-        }
+
 
 }
 
