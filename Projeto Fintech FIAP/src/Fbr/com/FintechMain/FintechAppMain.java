@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 import br.com.Fintech.Modulos.*;
 
-public class TesteFintechApp {
+public class FintechAppMain {
     public static void main(String[] args) {
 
 

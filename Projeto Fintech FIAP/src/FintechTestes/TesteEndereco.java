@@ -1,4 +1,4 @@
-package Fbr.com.FintechMain;
+package FintechTestes;
 
 import br.com.Fintech.Modulos.Endereco;
 

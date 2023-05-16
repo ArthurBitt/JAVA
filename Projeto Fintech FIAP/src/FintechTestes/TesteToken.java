@@ -1,4 +1,4 @@
-package Fbr.com.FintechMain;
+package FintechTestes;
 
 public class TesteToken {
 }
