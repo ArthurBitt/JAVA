@@ -3,20 +3,24 @@ package br.com.Fintech.Modulos;
 public class Conta {
 
     //Variáveis Atributos
-    private String nomeTitular;
+    private Clientes nomeTitular;
     private int numConta;
     private int numAgencia;
     private double saldo = 0;
     private Data dataAbertura;
     private static int  quantContas;
 
+
+
     //construtor
-    public Conta(Data dataAbertura, String nomeTitular, int numeroConta, int numeroAgencia){
+    public Conta(Data dataAbertura, Clientes nomeTitular, int numeroConta, int numeroAgencia){
+
         this.dataAbertura = dataAbertura;
         this.nomeTitular = nomeTitular;
         this.numConta = numeroAgencia;
         this.numAgencia = numeroAgencia;
         Conta.quantContas += 1;
+
     }
 
     //getters e setters da classe
@@ -36,6 +40,22 @@ public class Conta {
         return this.saldo;
     }
 
+    public Clientes getNomeTitular() {
+        return nomeTitular;
+    }
+
+    public int getNumConta() {
+        return numConta;
+    }
+
+    public int getNumAgencia() {
+        return numAgencia;
+    }
+
+    public Data getDataAbertura() {
+        return dataAbertura;
+    }
+
     //Métodos da Classe
     public String recuperaDadosParaImpressao() {
         String dadosImpressos = String.format("""
@@ -46,7 +66,7 @@ public class Conta {
                     Saldo:            %.2f
                     Data Abertura:    %s
                 **************************************                       
-                """, nomeTitular, numConta, numAgencia, saldo, Data.recuperaData());
+                """, getNomeTitular().toString(), getNumConta(), getNumAgencia(), getSaldo(), Data.recuperaData());
         return dadosImpressos;
 
     }
@@ -62,4 +82,5 @@ public class Conta {
     public double deposita(double valor){
         return this.saldo += valor;
     }
+
 }

@@ -1,9 +1,7 @@
 package Fbr.com.FintechMain;
 import java.util.Scanner;
-import br.com.Fintech.Modulos.Conta;
-import br.com.Fintech.Modulos.Data;
-import br.com.Fintech.Modulos.Token;
-import br.com.Fintech.Modulos.Menu;
+
+import br.com.Fintech.Modulos.*;
 
 public class TesteFintechApp {
     public static void main(String[] args) {
@@ -12,7 +10,8 @@ public class TesteFintechApp {
 //instancias
         Menu menu = new Menu();
         Data data = new Data(14, 05, 2023);
-        Conta conta1 = new Conta(data, "Arthur", 1234, 6);
+        Clientes cliente1 = new Clientes("Arthur");
+        Conta conta1 = new Conta(data, cliente1, 1234, 6);
         Token password = new Token();
         Scanner sc = new Scanner(System.in);
 

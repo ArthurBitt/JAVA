@@ -1,9 +1,14 @@
-package MyStreaming;
+package MyStreaming.Testes;
+
+import MyStreaming.Modulos.FilmesPOO;
+import MyStreaming.Modulos.FilmesEncapsulamentoAplicacao;
+import MyStreaming.Modulos.SeriesPraticandoHerança;
+import MyStreaming.Modulos.TituloSuperClass;
 
 public class MainTestes {
     public static void main(String[] args) {
         //Classe filme sem encapsulamento
-        Filmes f1 = new Filmes();
+        FilmesPOO f1 = new FilmesPOO();
         f1.nome = "Evil Dead";
         f1.anoLancamento = 2023;
         f1.duracaoEmMinutos = 120;
@@ -26,6 +31,18 @@ public class MainTestes {
 
         int total = FilmesEncapsulamentoAplicacao.getQuantFilmesAssistidos();//definido a variavel para usar static
         System.out.println(f2.mediaAvaliacoes());
+
+        //Class serie derivando de uma superclass Titulo
+        SeriesPraticandoHerança Serie1 = new SeriesPraticandoHerança("The Walking Dead",2010,12,8.0);
+
+        Serie1.exibeFichaTecnica();
+
+
+
+
+
+
+
 
         System.out.println(total);//printando um get
 

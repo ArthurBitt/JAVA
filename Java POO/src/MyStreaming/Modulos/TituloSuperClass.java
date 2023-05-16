@@ -1,6 +1,6 @@
-package MyStreaming;
+package MyStreaming.Modulos;
 
-public class FilmesEncapsulamentoAplicacao {
+public class TituloSuperClass {
 
     //Atributos privados
     private String nome;
@@ -9,19 +9,20 @@ public class FilmesEncapsulamentoAplicacao {
     private static double somaAvaliacoes;
     private static int totalDeAvaliacoes;
     private int duracaoEmMinutos;
-    private static int quantFilmesAssistidos; // uso do static
+    private static int quantTitulosAssistidos; // uso do static
 
-    FilmesEncapsulamentoAplicacao(String nome, int ano, int duracao, double nota){ //utilização de um construtor
+    public TituloSuperClass(String nome, int ano, int duracao, double nota){ //utilização de um construtor
         this.nome = nome;
         this.anoLancamento = ano;
         this.duracaoEmMinutos = duracao;
-        FilmesEncapsulamentoAplicacao.somaAvaliacoes += nota;
-        FilmesEncapsulamentoAplicacao.quantFilmesAssistidos += 1;
-        FilmesEncapsulamentoAplicacao.totalDeAvaliacoes ++;
+        TituloSuperClass.somaAvaliacoes += nota;
+        TituloSuperClass.quantTitulosAssistidos += 1;
+        TituloSuperClass.totalDeAvaliacoes ++;
     }
 
     //getters e setters
     public String getNome() {
+
         return this.nome;
     }
 
@@ -51,11 +52,11 @@ public class FilmesEncapsulamentoAplicacao {
 
     //static method para contador
     public static int getQuantFilmesAssistidos(){
-        return FilmesEncapsulamentoAplicacao.quantFilmesAssistidos;
+        return TituloSuperClass.quantTitulosAssistidos;
     }
 
     //métodos
-    void exibeFichaTecnica(){
+    public void exibeFichaTecnica(){
         System.out.println("Nome: "+ this.nome);
         System.out.println("Ano: "+this.anoLancamento);
         System.out.println("Duração: "+ this.anoLancamento + "min");
@@ -65,9 +66,8 @@ public class FilmesEncapsulamentoAplicacao {
 
 
 
-    double mediaAvaliacoes(){
+    public double mediaAvaliacoes(){
         double media = somaAvaliacoes/totalDeAvaliacoes;
         return media;
     }
-
 }
