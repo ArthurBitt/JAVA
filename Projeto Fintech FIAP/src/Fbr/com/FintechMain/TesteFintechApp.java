@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 import br.com.Fintech.Modulos.*;
 
+<<<<<<< HEAD
 <<<<<<< HEAD:Projeto Fintech FIAP/src/Fbr/com/FintechMain/FintechAppMain.java
 /**
  * App main
@@ -11,6 +12,9 @@ public class FintechAppMain {
 =======
 public class TesteFintechApp {
 >>>>>>> parent of 573c5f9 (.):Projeto Fintech FIAP/src/Fbr/com/FintechMain/TesteFintechApp.java
+=======
+public class TesteFintechApp {
+>>>>>>> parent of 573c5f9 (.)
     public static void main(String[] args) {
 
 
