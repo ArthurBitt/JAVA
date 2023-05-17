@@ -1,5 +1,8 @@
 package br.com.Fintech.Modulos;
 
+/**
+ * Classe responsável por gerar as contas
+ */
 public class Conta {
 
     //Variáveis Atributos

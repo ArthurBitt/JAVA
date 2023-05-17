@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="Projeto Fintech FIAP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Projeto_Fintech_FIAP_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Projeto Fintech FIAP.jar">
+        <element id="module-output" name="Projeto Fintech FIAP" />
+      </element>
+    </root>
+  </artifact>
+</component>
