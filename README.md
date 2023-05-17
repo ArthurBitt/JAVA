@@ -4,14 +4,19 @@
 
 ### 1º Parte -  Introdução ao Java
 
+
+
 ``` 
 Instalar JDK
 Instalar IDEA intellij
 ```
 
-* Preparar o ambiente de desenvolvimento - links : <a href = "https://www.oracle.com/br/java/technologies/downloads/#jdk17-windows" >JDK</a> <a href="https://www.jetbrains.com/idea/download/#section=windows">Intellij</a>
+> <a href="https://www.alura.com.br/artigos/java"> Artigo Alura para entender um pouco alguns conceitos e a linguagem </a>
 
- ><a href="https://www.alura.com.br/artigos/java"> Artigo Alura para entender um pouco alguns conceitos e a linguagem </a>
+> <a href ="https://github.com/ArthurBitt/JAVA/blob/main/Java%20intro/src/ExercicioPraticoConceitos.java" >Exercício Prático utilizando todo conteúdo para montar um menu de aplicação bancária com funcionalidades</a>
+
+
+* Preparar o ambiente de desenvolvimento - links : <a href = "https://www.oracle.com/br/java/technologies/downloads/#jdk17-windows" >JDK</a> <a href="https://www.jetbrains.com/idea/download/#section=windows">Intellij</a>
 
 * variáveis (tipos primitivos x referência)
 
@@ -25,22 +30,47 @@ Instalar IDEA intellij
 
 * String (concatenção de strings, String.format(%f, %d, %s), blocos de textos (""" """))
 
-><a href ="https://github.com/ArthurBitt/JAVA/blob/main/Java%20intro/src/ExercicioPraticoConceitos.java" >Exercício Prático utilizando todo conteúdo para montar um menu de aplicação bancária com funcionalidades</a>
-
-* ###### Java Introdução a Programação Orientada a Objeto 
-
-* Pilares da POO (Abstração, encapsulamento, polimorfismo e herança)
+* #### Java Introdução a Programação Orientada a Objeto 
 
 > <a href="https://www.alura.com.br/apostila-java-orientacao-objetos"> Apostila de Java OOP Alura para consultas </a>
 
 > <a href="https://github.com/ArthurBitt/JAVA/tree/main/Java%20POO"> Exercícios práticos </a>
 
-* Listas, Consumo de API's e Introdução as exceções
+
+ ###### Classes, Métodos e Objetos
+
+* <a href = "https://www.w3schools.com/java/java_classes.asp" >Classe/objeto</a>
+
+* <a href = "https://www.w3schools.com/java/java_class_attributes.asp" >Atributos</a>
+
+* <a href = "https://www.w3schools.com/java/java_class_methods.asp" >Métodos</a>
+
+* <a href = "https://www.w3schools.com/java/java_constructors.asp" >Construtores</a>
+
+* <a href = "https://www.w3schools.com/java/java_modifiers.asp" >Modificadores de Acesso</a>
+
+ ###### Pilares da POO (Abstração, encapsulamento, polimorfismo e herança)
+
+* <a href = "https://www.w3schools.com/java/java_abstract.asp" >Abstração</a>
+
+* <a href = "https://www.w3schools.com/java/java_encapsulation.asp" >Encapsulamento</a>
+
+* <a href = "https://www.w3schools.com/java/java_inheritance.asp" >Herança</a>
+
+* <a href = "https://www.w3schools.com/java/java_polymorphism.asp" >Polimorfismo</a>
+
+ ###### Classe abstrata, Interface, Exceções
+
+* <a href = "https://www.w3schools.com/java/java_inner_classes.asp" >Classe abstrata</a>
+
+* <a href = "https://www.w3schools.com/java/java_interface.asp" >Interface</a>
+
+* <a href = "https://www.w3schools.com/java/java_try_catch.asp" >Exceções</a>
+
+* Listas, Consumo de API's 
 
 * Collections 
-
-* Exceções
-
+ 
 
 
 ### 2º integrando aplicações com banco de dados
