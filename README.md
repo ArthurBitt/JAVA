@@ -75,6 +75,8 @@ Instalar IDEA intellij
 
 ### 2º integrando aplicações com banco de dados
 
+* <a href = 'https://www.alura.com.br/apostila-java-web/bancos-de-dados-e-jdbc' >JDBC</a>
+
 
 ### 3º Spring Boot
 
