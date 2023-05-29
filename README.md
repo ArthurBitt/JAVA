@@ -67,12 +67,11 @@ Instalar IDEA intellij
 
 * <a href = "https://www.w3schools.com/java/java_try_catch.asp" >Exceções</a>
 
-* Listas, Consumo de API's 
+###### Coleções
 
-* Collections 
+* <a href = 'https://www.alura.com.br/conteudo/java-collections' >Collections</a>
  
-
-
+ 
 ### 2º integrando aplicações com banco de dados
 
 * <a href = 'https://www.alura.com.br/apostila-java-web/bancos-de-dados-e-jdbc' >JDBC</a>
